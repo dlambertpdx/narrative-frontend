@@ -1,7 +1,7 @@
 # Narrative
 
 ## Links and Resources
-[Deployed Site](https://team-narrative.netlify.com/) | [Backend](https://github.com/team-narrative/narrative-be)
+[Deployed Site](https://team-narrative.netlify.com/) | [Backend](https://github.com/sanvean74/narrative-backend)
 
 #### Team Narrative: [Ollie Comet](https://github.com/olliecomet), [Donna Lambert](https://github.com/sanvean74), [Antonella Gutierrez](https://github.com/27Nyappy) & [Alex Spencer](https://github.com/alexjonspencer1)
 
