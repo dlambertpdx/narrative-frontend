@@ -1,0 +1,29 @@
+.Footer {
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  height: 5vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #251A18;
+  color: #a0a0a0;
+  border-top: 1px solid #9E221A;
+
+  a {
+    color: #a0a0a0;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: #A83D09;
+  }
+
+  a:visited {
+    color: #a0a0a0;
+  }
+}

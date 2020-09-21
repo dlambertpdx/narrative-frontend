@@ -1,0 +1,121 @@
+@media screen and (max-width: 640px) {
+  .StoryNavigation {
+    background-color: #a1bbbb;    
+    width: 40vw;
+    margin-left: 5px;
+    overflow: scroll;
+    font-family: 'Roboto', sans-serif;
+
+    div {
+      padding-top: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label {
+      margin-bottom: 5px;
+      padding: 5px 0px;
+      background-color: #A0A0A0;
+      font-size: .9rem;
+      width: 80%;
+      text-align: center;
+    }
+
+    label:hover {
+      color: #A0A0A0;
+      cursor: pointer;
+      box-shadow: 0px 1px 2px rgb(29, 23, 22);
+      background-color: #4b3430;
+      transform: scale(1.05);
+    }
+  
+    input {
+      width: 80%;
+    }
+  }
+
+  .StoryTitleButton {
+    display: none;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .StoryNavigation {
+    div {
+      font-family: 'Roboto', sans-serif;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      max-height: 62.5vh;
+      overflow: scroll;
+      width: 100%;
+    }
+    
+    label {
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 1em;
+      text-transform: capitalize;
+      font-weight: 300;
+      color: #A0A0A0;
+      transition: all ease-in .1s;
+    }
+    
+    label:hover {
+      color: #A0A0A0;
+      cursor: pointer;
+      box-shadow: 0px 1px 2px rgb(29, 23, 22);
+      background-color: #4b3430;
+      transform: scale(1.05);
+    }
+  
+    input {
+      margin-top: 10px;
+      width: 80%;
+    }
+  }
+  
+  .StoryTitleButton {
+    display: none;
+  }
+}
+@media screen and (min-width: 1008px) {
+  .StoryNavigation {
+    div {
+      font-family: 'Roboto', sans-serif;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      max-height: 62.5vh;
+      overflow: scroll;
+      width: 100%;
+    }
+    
+    label {
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 1em;
+      text-transform: capitalize;
+      font-weight: 300;
+      color: #A0A0A0;
+      transition: all ease-in .1s;
+    }
+    
+    label:hover {
+      color: #A0A0A0;
+      cursor: pointer;
+      box-shadow: 0px 1px 2px rgb(29, 23, 22);
+      background-color: #4b3430;
+      transform: scale(1.05);
+    }
+  
+    input {
+      margin-top: 10px;
+      width: 80%;
+    }
+  }
+  
+  .StoryTitleButton {
+    display: none;
+  }
+}

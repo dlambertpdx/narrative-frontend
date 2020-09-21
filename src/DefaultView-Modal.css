@@ -1,0 +1,58 @@
+.modalMain {
+  position:fixed;
+  background: white;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  border-radius: 10px;
+  width: 50%;
+  padding: 30px;
+  
+  input {
+    margin-bottom: 15px;
+    width: 50%;
+    height: 20px;
+    font-size: 15px;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    font-size: 2em;
+  }
+}
+
+.displayBlock {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: block;
+}
+
+.displayNone{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+.SaveButton {
+  margin-bottom: -50px;
+  width: 60%;
+  align-self: center;
+}
+
+.ExitButton {
+  align-self: center;
+  margin-top: 20px;
+  width: 20%;
+}
+

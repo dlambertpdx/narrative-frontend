@@ -1,0 +1,77 @@
+@media screen and (max-width: 640px) {
+  .ChapterCategory {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 12vh;
+    margin-bottom: 5px;
+    background-image: url('./chapters.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+    .h2 {
+      font-size: 1.7em;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+      text-transform: uppercase;
+    }
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .ChapterCategory {
+    height: 50%;
+    margin-bottom: 5px;
+    background-image: url('./chapters.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+  }
+  .ChapterCategoryContainer {
+    width: 85%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .h2 {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+  } 
+}
+@media screen and (min-width: 1008px) {
+  .ChapterCategory {
+    background-image: url('./chapters.jpg');
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2%;
+  
+    h2, div {
+      align-self: center;
+    }
+  }
+  
+  .ChapterCategoryContainer {
+    width: 85%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .h2 {
+    align-self: center;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+  } 
+}

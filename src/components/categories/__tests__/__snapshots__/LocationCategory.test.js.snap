@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationCategory component renders a location category 1`] = `
+<section
+  className="LocationCategory"
+>
+  <h2
+    className="h2"
+  >
+    Locations
+  </h2>
+  <div
+    className="LocationCategoryContainer"
+  >
+    <AddLocationButton />
+    <ViewAllButton
+      handleViewClick={[Function]}
+    />
+  </div>
+</section>
+`;

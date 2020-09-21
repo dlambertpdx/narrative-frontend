@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorldCategory component renders a world category 1`] = `
+<section
+  className="WorldCategory"
+>
+  <h2
+    className="h2"
+  >
+    World Building
+  </h2>
+  <div
+    className="WorldCategoryContainer"
+  >
+    <AddWorldButton />
+    <ViewAllButton
+      handleViewClick={[Function]}
+    />
+  </div>
+</section>
+`;

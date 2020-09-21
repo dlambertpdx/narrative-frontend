@@ -1,0 +1,193 @@
+@media screen and (max-width: 640px) {
+  .CurrentStory {
+    display: flex;
+    flex-direction: column;
+    height: 22vh;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .CurrentStoryContainer {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    margin: 1%;
+    padding: 2px;
+    height: 45%;
+    width: 90%;
+
+    .ButtonContainer {
+      align-self: flex-end;
+    }
+  
+    h2 {
+      font-size: 1em;
+      font-weight: 500;
+    }
+  }
+  
+  .SynopsisContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    align-self: center;
+    width: 100%;
+    height: 60%;
+    
+    p {
+      background-color: #a1bbbb;
+      margin: 5px;
+      width: 90%;
+      height: 30%;
+      padding: 15px;
+      align-self: center;
+      color: darkslategray;
+      overflow: scroll;
+    }
+  }
+  
+  .CurrentStoryButton {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    width: 80px;
+    padding: 5px;
+    color: white;
+    transition: all ease-in .1s;
+    background-color: #9E221A;
+    border: 1px solid #a0a0a0;
+    cursor: pointer;
+  }
+  
+  .CurrentStoryButton:hover {
+    background-color: #671b16;
+    transform: scale(1.05);
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .CurrentStory {
+    display: flex;
+    height: 20%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .CurrentStoryContainer {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1%;
+    justify-content: space-between;
+    padding: 2px;
+  
+    h2 {
+      font-size: 1em;
+      font-weight: 500;
+    }
+  }
+  
+  .SynopsisContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    
+    p {
+      background-color: #a1bbbb;
+      margin: 5px;
+      width: 90%;
+      height: 30%;
+      padding: 15px;
+      align-self: center;
+      color: darkslategray;
+      overflow: scroll;
+    }
+  }
+  
+  .CurrentStoryButton {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    width: 80px;
+    align-self: left;
+    padding: 5px;
+    color: white;
+    transition: all ease-in .1s;
+    background-color: #9E221A;
+    border: 1px solid #a0a0a0;
+    cursor: pointer;
+  }
+  
+  .CurrentStoryButton:hover {
+    background-color: #671b16;
+    transform: scale(1.05);
+  }
+}
+@media screen and (min-width: 1008px) {
+  .CurrentStory {
+    display: flex;
+    height: 20%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .CurrentStoryContainer {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1%;
+    justify-content: space-between;
+    padding: 2px;
+  
+    h2 {
+      font-size: 1em;
+      font-weight: 500;
+    }
+  }
+  
+  .SynopsisContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    
+    p {
+      background-color: #a1bbbb;
+      margin: 5px;
+      width: 90%;
+      height: 30%;
+      padding: 15px;
+      align-self: center;
+      color: darkslategray;
+      overflow: scroll;
+    }
+  }
+  
+  .CurrentStoryButton {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    width: 80px;
+    align-self: left;
+    padding: 5px;
+    color: white;
+    transition: all ease-in .1s;
+    background-color: #9E221A;
+    border: 1px solid #a0a0a0;
+    cursor: pointer;
+  }
+  
+  .CurrentStoryButton:hover {
+    background-color: #671b16;
+    transform: scale(1.05);
+  }
+}

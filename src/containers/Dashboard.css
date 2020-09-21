@@ -1,0 +1,46 @@
+@media screen and (max-width: 640px) {
+  .Dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .Dashboard {
+    display: flex;
+    
+    main {
+      display: flex;
+      flex-direction: column;
+      height: 95vh;
+      width: 100%;
+    }
+  }
+  
+  .DashboardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1008px) {
+  .Dashboard {
+    display: flex;
+    margin: 0 auto;
+    
+    main {
+      background-color: #658989;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 95vh;
+      width: 100%;
+    }
+  }
+  
+  .DashboardContainer {
+    display: flex;
+    height: 50%;
+    width: 100%;
+  }
+}

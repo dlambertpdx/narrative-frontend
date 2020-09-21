@@ -1,0 +1,161 @@
+@media screen and (max-width: 640px) {
+  .UserCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #a0a0a0;
+    width: 30vw;
+
+    .LogoImage {
+      display: none;
+    }
+
+    img {
+      max-width: 40px;
+      border-radius: 50%;
+      align-self: center;
+    }
+
+    button {
+      align-self: center;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: .7em;
+      text-transform: uppercase;
+      transition: all ease-in .1s;
+      width: 80%;
+      height: 25px;
+      background-color: #247E7F;
+      border: 1px solid #A0A0A0;
+      text-transform: uppercase;
+      transition: all ease-in .1s;
+      color: #fff;
+    }
+  
+    button:hover {
+      background-color: #335556;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  
+    h3 {
+      align-self: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .UserImage {
+      max-width: 40px;
+      border: 1px solid #9E221A;
+      border-radius: 50%;
+      align-self: center;
+    }
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .UserCard {
+    height: 25vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 15px;
+    color: #a0a0a0;
+    border-bottom: 1px dashed #5c5250;
+  
+    .LogoImage {
+      border-radius: 0;
+      max-width: 90px;
+      align-self: center;
+    }
+  
+    .UserImage {
+      margin: 8px 0px 5px 0px;
+      max-width: 40px;
+      border: 1px solid #9E221A;
+      border-radius: 50%;
+      align-self: center;
+    }
+  
+    button {
+      width: 30%;
+      background-color: #247E7F;
+      border: 1px solid #A0A0A0;
+      color: #fff;
+      padding: 5px;
+      margin: 8px;
+      font-size: .75em;
+      text-transform: uppercase;
+      transition: all ease-in .1s;
+    }
+  
+    button:hover {
+      background-color: #335556;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  
+    h3 {
+      align-self: left;
+      margin-top: 5px;
+    }
+  }
+}
+@media screen and (min-width: 1008px) {
+  .UserCard {
+    height: 25vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 15px;
+    color: #a0a0a0;
+    border-bottom: 1px dashed #5c5250;
+  
+    .LogoImage {
+      border-radius: 0;
+      max-width: 90px;
+      align-self: center;
+    }
+  
+    .UserImage {
+      margin: 8px 0px 5px 0px;
+      max-width: 40px;
+      border: 1px solid #9E221A;
+      border-radius: 50%;
+      align-self: center;
+    }
+  
+    button {
+      width: 30%;
+      background-color: #247E7F;
+      border: 1px solid #A0A0A0;
+      color: #fff;
+      padding: 5px;
+      margin: 8px;
+      font-size: .75em;
+      text-transform: uppercase;
+      transition: all ease-in .1s;
+    }
+  
+    button:hover {
+      background-color: #335556;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  
+    h3 {
+      align-self: left;
+      margin-top: 5px;
+    }
+  }
+}

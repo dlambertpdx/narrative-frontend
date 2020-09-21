@@ -1,0 +1,79 @@
+@media screen and (max-width: 640px) {
+  .LocationCategory {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 12vh;
+    margin-bottom: 5px;
+    background-image: url('./chapters.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+    .h2 {
+      font-size: 1.7em;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+      text-transform: uppercase;
+    }
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  .LocationCategory {
+    height: 50%;
+    margin-bottom: 5px;
+    background-image: url('./chapters.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    background-image: url('./locations.jpg');
+  }
+  .LocationCategoryContainer {
+    width: 85%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .h2 {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+  } 
+}
+@media screen and (min-width: 1008px) {
+  .LocationCategory {
+    background-image: url('./locations.jpg');
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 60% 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2%;
+  
+    h2, div {
+      align-self: center;
+    }
+  }
+  
+  .LocationCategoryContainer {
+    width: 85%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .h2 {
+    align-self: center;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+  } 
+}

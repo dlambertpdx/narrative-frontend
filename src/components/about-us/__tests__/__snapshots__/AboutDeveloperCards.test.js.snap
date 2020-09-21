@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutDeveloperCards component renders a list of about developer cards 1`] = `
+<div
+  className="AboutDeveloperCard"
+>
+  <div>
+    <h2 />
+    <img />
+  </div>
+  <div>
+    <p />
+  </div>
+</div>
+`;

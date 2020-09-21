@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterCategory component renders a character category 1`] = `
+<section
+  className="ChapterCategory"
+>
+  <h2
+    className="h2"
+  >
+    Chapters
+  </h2>
+  <div
+    className="ChapterCategoryContainer"
+  >
+    <div>
+      <AddChapterButton />
+    </div>
+    <ViewAllButton
+      handleViewClick={[Function]}
+    />
+  </div>
+</section>
+`;
